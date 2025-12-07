@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Momo Trust Display", sans-serif;
+    
+}
+
+
+.momo-trust-display-regular {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.logo{
+    width: auto;
+    height: 90px;
+}
+
+.opciones{
+    background-color: aquamarine;
+    border-radius: 14px;
+    width: 100%;
+}
+
+.publicaciones{
+    margin-top: 2%;
+background-color: rgb(225, 225, 225);
+border-radius: 18px;
+}
+
+.publicaciones h1{
+    top: 10%;
+}
+
+.publicaciones p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.topdiario{
+    background-color: rgba(128, 128, 128, 0.423);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.topdiario h2{
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+.fecha{
+    width: 100%;
+}
+.topdiario p{
+    text-align: right;
+}
+
+.textodiario{
+    padding: 20px;
+}
+
+.secciones{
+    padding: 40px;
+    
+}
+
+
+.banner{
+    padding: 30px ;
+  background-color: aquamarine;
+  border-radius: 15px;
+}
+
+.fotoperfil{
+    border-radius: 14px;
+}
+
+.banner img{
+    width: 60%;
+    height: auto;
+    
+}
+
+.bannercolumna{
+    width: 20%;
+    text-align: right;
+    position: absolute; 
+    top: 20%;
+    right: 75%;
+}
+
+.diariocolumna{
+    width: 80%;
+}
+
+.banner p{
+    font-size: 13px;
+    text-align: left;
+}
+
+.instagrambtn{
+      width: 30px;
+  height: 0px;
+}
+ 
+
+.cuerpo{
+   padding-left: 10%;
+   padding-right: 20%;
+}
+
