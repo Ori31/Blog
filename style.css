@@ -1,10 +1,13 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     text-align: center;
     font-family: "Momo Trust Display", sans-serif;
     
+}
+
+.cuerpo{
+    padding: 20px 25px;
+    background-color: rgb(17, 80, 135);
+    border-radius: 14px;
 }
 
 
@@ -91,9 +94,8 @@ border-radius: 18px;
 .bannercolumna{
     width: 20%;
     text-align: right;
-    position: absolute; 
     top: 20%;
-    right: 75%;
+    right: 100%;
 }
 
 .diariocolumna{
@@ -111,8 +113,4 @@ border-radius: 18px;
 }
  
 
-.cuerpo{
-   padding-left: 10%;
-   padding-right: 20%;
-}
 
