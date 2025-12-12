@@ -137,19 +137,27 @@ border-radius: 18px;
 /* Estilo para telefonos */
 
 @media (max-width: 768px) {
-       .cuerpo {
+    .cuerpo {
         margin: 10px; 
         padding: 10px;
     }
-
+    
     .contenedor-principal {
         flex-direction: column;
-        gap: 0;    }
+        gap: 0; 
+    }
 
     .banner,
     .diariocolumna {
-          width: 100%;
+        width: 100%;
         flex: none; 
         position: static; 
+    }
+    .diariocolumna {
+        padding-top: 20px;
+    }
+
+    .logo {
+        height: 60px;
     }
 }
