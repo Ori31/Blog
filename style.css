@@ -101,8 +101,8 @@ border-radius: 18px;
 }
 
 .diariocolumna{
-    display: inline-block;
-    width: 80%;
+   flex-grow: 1; 
+  min-width: 0;
 }
 
 .banner p{
@@ -117,8 +117,10 @@ border-radius: 18px;
 }
 
 .banner {
-  flex: 0 0 250px; 
-  
+ flex: 0 0 250px; 
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
 }
 
 .columna-contenido {
