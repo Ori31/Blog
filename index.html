@@ -16,7 +16,7 @@
     <header class="Cabezal">
         <table class="opciones">
             <tr>
-                <th><img src="img/Nayuta pengo icon (simple form).jpg" class="logo"></th>
+                <th><a id="logo"> <img src="img/Nayuta pengo icon (simple form).jpg" class="logo"> </a></th>
                 
                 <th><h1><a href="index.html">Sobre mi</a></h1></th>
                 <th><h1><a href="src/html/proyectos.html"> Proyectos </a></h1></th>
@@ -28,11 +28,7 @@
         </table>
     </header>
 
-    <div class="cuerpo">
-
-    <table >
-        <tr class="tabla">
-<td class="bannercolumna">
+    <div class="contenedor-principal">
 <div class="banner">
 <img src="img/f8d270a53b169510abb185970a456eee.jpg" class="fotoperfil">
     <h2>@kikiriori</h2>
@@ -62,14 +58,34 @@
     </tr>
 </table>
 </div>
-</td>
-<td class="diariocolumna">
+
 
  <section class="secciones">
+    <div class="columna-contenido">
     <h1>Ori's dev diary</h1>
 
 <br>
 
+  <div class="publicaciones">
+        <div class="topdiario">
+            <table>
+                <tr>
+                    <td> <h2>@kikiriori</h2></td>
+                    <td class="fecha"> <p>Diciembre 11</p></td>
+                </tr>
+            </table>
+           
+        </div>
+        <div class="textodiario">
+         <p class="lineas">------------------------------------------</p>
+        <p>En estos dias estuve re concentrado en pasar las materias de la uni pero de paso aprendi a usar muchisimo mejor github y github pages por lo que ahora estoy haciendo varios proyectos y los estoy subiendo en github pages para poder hacer mi portafolio para cuando empiece a buscar trabajo, por ejemplo actualmente estoy trabajando en una pagina web / aplicacion porque uso electron entonces puede servir de ambas manera pero la estoy usando para utilidades que luego buscarias en google como una calculadora, ordenamiento de numeros y cositas asi.</p>
+   
+
+        </div>
+        </div>
+
+
+<br><br>
     <div class="publicaciones">
         <div class="topdiario">
             <table>
@@ -111,17 +127,14 @@
         </div>
         </div>
 
-
+</div>
 
  </section>
 
-</td>
-        </tr>
-
-    </table>
-
+</div>
 
     </div>
 </div>
 </body>
+<script src="src/js/index.js"></script>
 </html>

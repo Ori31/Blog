@@ -6,7 +6,9 @@
 
 .cuerpo{
     padding: 20px 25px;
-    background-color: rgb(17, 80, 135);
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: rgb(45, 103, 153);
     border-radius: 14px;
 }
 
@@ -22,6 +24,7 @@
 .logo{
     width: auto;
     height: 90px;
+    cursor: pointer;
 }
 
 .opciones{
@@ -76,7 +79,7 @@ border-radius: 18px;
 
 
 .banner{
-    padding: 30px ;
+    padding: 15px ;
   background-color: aquamarine;
   border-radius: 15px;
 }
@@ -93,18 +96,34 @@ border-radius: 18px;
 
 .bannercolumna{
     width: 20%;
-    text-align: right;
-    top: 20%;
-    right: 100%;
+    position: sticky;
+    top: 10px;
 }
 
 .diariocolumna{
+    display: inline-block;
     width: 80%;
 }
 
 .banner p{
     font-size: 13px;
     text-align: left;
+}
+
+.contenedor-principal {
+  display: flex; 
+  gap: 20px;
+  padding: 20px;
+}
+
+.banner {
+  flex: 0 0 250px; 
+  
+}
+
+.columna-contenido {
+  flex-grow: 0; /* Permite que esta columna crezca para ocupar el espacio restante */
+ min-width: 0; /* Importante para el correcto funcionamiento del encogimiento */
 }
 
 .instagrambtn{
