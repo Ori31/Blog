@@ -16,7 +16,17 @@ body{
     border-radius: 14px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s;
+}
 
+a:hover{
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 .momo-trust-display-regular {
   font-family: "Momo Trust Display", sans-serif;
   font-weight: 400;
