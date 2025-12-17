@@ -151,6 +151,11 @@ border-radius: 18px;
       width: 30px;
   height: 0px;
 }
+
+.sobimg{
+    border-radius: 9px;
+    box-shadow: black 3px 4px 4px;
+}
  
 
 /* Estilo para telefonos */
