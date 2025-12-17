@@ -155,6 +155,7 @@ border-radius: 18px;
 .sobimg{
     border-radius: 9px;
     box-shadow: black 3px 4px 4px;
+    height: auto;
 }
  
 
