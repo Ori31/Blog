@@ -147,42 +147,9 @@ border-radius: 18px;
  min-width: 0; /* Importante para el correcto funcionamiento del encogimiento */
 }
 
-.instagrambtn{
-      width: 30px;
-  height: 0px;
-}
-
 .sobimg{
     border-radius: 9px;
     box-shadow: black 3px 4px 4px;
     height: auto;
 }
  
-
-/* Estilo para telefonos */
-
-@media (max-width: 768px) {
-    .cuerpo {
-        margin: 10px; 
-        padding: 10px;
-    }
-    
-    .contenedor-principal {
-        flex-direction: column;
-        gap: 0; 
-    }
-
-    .banner,
-    .diariocolumna {
-        width: 100%;
-        flex: none; 
-        position: static; 
-    }
-    .diariocolumna {
-        padding-top: 20px;
-    }
-
-    .logo {
-        height: 60px;
-    }
-}
