@@ -9,22 +9,23 @@ body{
     background-color:rgb(0, 0, 0);
 }
 .cuerpo{
-    padding: 20px 25px;
-    margin: 20px auto;
+    padding: 2px 10px 10px 10px;
+    margin: auto;
     max-width: 1200px;
-    background-color: rgba(131, 55, 72, 0.733);
+    background-color: rgb(131, 55, 72);
     border-radius: 14px;
 }
 
 a{
+    font-size: 25px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     transition: all 0.2s;
 }
 
 a:hover{
     font-size: 120%;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .momo-trust-display-regular {
@@ -42,61 +43,41 @@ a:hover{
 
 .opciones{
     width: 100%;
-    border-radius: 14px;
-    background-color: rgb(204, 175, 179);
-    border-bottom: 4px solid black; 
+   margin: -15px;
 }
 
-.publicaciones{
-    margin-top: 2%;
+.cuadros{
+    text-align: center;
+
 background-color: rgb(225, 225, 225);
-border-radius: 18px;
+border-radius: 15px;
+  border: 4px rgb(150, 19, 78) solid;
+  
 }
 
-.publicaciones h1{
+.cuadros h1{
     top: 10%;
+    color: rgb(36, 130, 133);
 }
 
-.publicaciones p{
+.cuadros p{
     padding-left: 20px;
     padding-right: 20px;
 }
 
-
-.topdiario{
-    background-color: rgba(128, 128, 128, 0.423);
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-}
-
-
-.topdiario h2{
-    text-align: left;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    }
-
-.fecha{
-    width: 100%;
-}
-.topdiario p{
-    text-align: right;
-}
-
-.textodiario{
-    padding: 20px;
-}
-
-.secciones{
-    padding: 40px;
-    
+hr{
+    border: none;
+    background-color: black;
+    height: 2px;
+    width: 80%;
+    margin: 20px auto;
 }
 
 
 .banner{
     padding: 15px ;
   background-color: rgb(225, 225, 225);
+  border: 4px rgb(150, 19, 78) solid;
   border-radius: 15px;
 }
 
@@ -124,6 +105,10 @@ border-radius: 18px;
   min-width: 0;
 }
 
+h1{
+    font-size: 25px;
+}
+
 .banner p{
     font-size: 13px;
     text-align: left;
@@ -131,20 +116,27 @@ border-radius: 18px;
 
 .contenedor-principal {
   display: flex; 
+  flex-direction: row;
   gap: 20px;
   padding: 20px;
+  background-color: rgba(203, 206, 139, 0.65);
+  border-radius: 3px;
+  align-self: flex-start;
+  
 }
 
+
 .banner {
- flex: 0 0 250px; 
-  position: sticky;
+  flex: 0 0 200px; 
   top: 20px;
-  align-self: flex-start;
+
 }
 
 .columna-contenido {
-  flex-grow: 0; /* Permite que esta columna crezca para ocupar el espacio restante */
- min-width: 0; /* Importante para el correcto funcionamiento del encogimiento */
+    flex-grow: 2; 
+ min-width: 0; 
+ width: auto;
+ 
 }
 
 .sobimg{
@@ -152,4 +144,38 @@ border-radius: 18px;
     box-shadow: black 3px 4px 4px;
     height: auto;
 }
+
+.diario{
+  background-color: rgba(203, 206, 139, 0.189);
+    width: auto;
+    height: 300px; 
+    border: 3px rgb(150, 19, 78) solid;
+    overflow: scroll;
+    padding: 0;
+    margin: 20px;
+    border-radius: 4px;
+}
+.textodiario{ 
+    height: 400px;
+}
  
+.columna-contenido2 {
+flex: 0 0 100px; 
+ 
+}
+
+.penguin{
+    border-radius: 14px;
+    border: 4px rgb(150, 19, 78) solid;
+    height: 260px;
+
+}
+
+
+.imagen{
+    height: 40px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
