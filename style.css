@@ -185,8 +185,19 @@ table{
 .contenido-scroll{
   background-color: rgba(203, 206, 139, 0.189);
     width: auto;
-    height:440px; 
+    height:335px; 
     border: 3px rgb(150, 19, 78) solid;
+    overflow-x: auto;
+    padding: 0;
+    margin: 20px;
+    border-radius: 19px; 
+    
+}
+
+.contenido-scroll-proyectos{
+  background-color: rgba(203, 206, 139, 0.189);
+    width: auto;
+    height:700px; 
     overflow-x: auto;
     padding: 0;
     margin: 20px;
