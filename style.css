@@ -5,8 +5,8 @@
 }
 
 body{
-    background-image: url('img/Static2.gif');
-    background-color:rgb(0, 0, 0);
+
+    background-color: rgba(0, 0, 0, 0);
 }
 .cuerpo{
     padding: 2px 10px 10px 10px;
